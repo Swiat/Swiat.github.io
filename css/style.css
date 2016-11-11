@@ -231,7 +231,10 @@ body {
 .bottom_image {
 	height: 345px;
 	width: 100%;
-	background: url(img/bot-image.png) 0 0 no-repeat;
+	background: url(img/bot-image.png) no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	margin-top: 40px;
 }
 
