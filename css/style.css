@@ -22,7 +22,6 @@ body {
 	height: 140px;
 	width: 100%;
 }
-
 .navigation {
 	background: #1c4489;
 	min-height: 55px;
@@ -339,7 +338,9 @@ body {
 	#email {
 		margin-right: 300px;
 	}
-
+	.mega_menu button a:hover {
+		border: none;
+	} 
 }
 
 
@@ -349,11 +350,9 @@ body {
 	}
 	.mega_menu ul li a:hover {
 		color: #fcd000;
-		border-bottom: 5px solid #115fd4;
 	}
-	.mega_menu ul li button:hover {
-		color: #000;
-		border: 1px solid #000;
+	.mega_menu button a:hover {
+		border: none;
 	}
 	.info_block, .sized {
 		padding-top: 10px;
@@ -386,4 +385,7 @@ body {
 	background: #1c4489;
 	border: none;
 	}
+	.mega_menu button a:hover {
+		border: none;
+	} 
 }
